@@ -13,6 +13,3 @@ COPY . /usr/src/app
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
-
-sudo /etc/init.d/go-agent restart
-
